@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 export const Token = (props) => {
-  const { img, name, consensus, background, description, link } = props.token;
+  const { img, name, consensus, background, description, link, font } =
+    props.token;
   return (
     <div
       style={{ background: background }}
@@ -8,11 +9,15 @@ export const Token = (props) => {
       onMouseOver={() => {}}
     >
       <img src={img} alt="" />
-      <h2>
+      <h2 style={{ color: font }}>
         <b>{name}</b>
       </h2>
-      <p>{description}</p>
-      <h2 style={{ fontSize: "20px", marginTop: "1rem" }}>{consensus}</h2>
+      <p style={{ color: font }}>
+        <b>{description}</b>
+      </p>
+      <h2 style={{ color: font, fontSize: "20px", marginTop: "1rem" }}>
+        <b>{consensus}</b>
+      </h2>
       <Button
         style={{ borderRadius: "1rem" }}
         href={link}

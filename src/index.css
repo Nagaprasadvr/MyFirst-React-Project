@@ -5,18 +5,18 @@
 }
 
 body{
-    font-family:Arial;
+    font-family:"Roboto Mono", monospace;
     background:black;
 }
 
 h2{
-    font-family:Arial;
-    color: white;
+    font-family:"Roboto Mono", monospace;
+    
 }
 
 p{
-    font-family: Arial;
-    color: white;
+    font-family: "Roboto Mono", monospace;
+    
     margin-top: 0.5rem;
 
 }
