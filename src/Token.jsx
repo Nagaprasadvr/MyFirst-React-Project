@@ -1,13 +1,12 @@
 import Button from "react-bootstrap/Button";
+import React from "react";
 export const Token = (props) => {
   const { img, name, consensus, background, description, link, font } =
     props.token;
+
   return (
-    <div
-      style={{ background: background }}
-      className="token"
-      onMouseOver={() => {}}
-    >
+
+    <div style={{ background: background }} className="token">
       <img src={img} alt="" />
       <h2 style={{ color: font }}>
         <b>{name}</b>

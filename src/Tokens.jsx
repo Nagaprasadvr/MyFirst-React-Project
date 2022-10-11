@@ -14,7 +14,7 @@ export const Tokens = [
           called accounts to hold data. This type of model made it more scalable
           and Solana is currently one of the fastest blockchian.`,
     link: "https://solana.com",
-    font: "white",
+    font: "whitesmoke",
   },
 
   {
@@ -31,7 +31,7 @@ export const Tokens = [
           idea called NFT was introduced which involved storing digital assets
           on Blockchain and owning them.`,
     link: "https://ethereum.org/en/",
-    font: "white",
+    font: "whitesmoke",
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ export const Tokens = [
           and proof of work consensus algorithm made bitcoin most decentralized
           among others.`,
     link: "https://bitcoin.org/en/",
-    font: "white",
+    font: "black",
   },
   {
     id: 4,
