@@ -18,7 +18,7 @@ export const Token = (props) => {
         <b>{consensus}</b>
       </h2>
       <Button
-        style={{ borderRadius: "1rem" }}
+        style={{ borderRadius: "1rem",color:"white" }}
         href={link}
         variant="info"
         className="btn-primary"
