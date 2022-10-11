@@ -84,4 +84,21 @@ export const Tokens = [
     link: "https://www.arweave.org/",
     font: "black",
   },
+  {
+    id: 6,
+    img: "./assets/polkadot.png",
+    name: "PolkaDot",
+    consensus: "Consensus :  NPoS(Nominated Proof-of-Stake) ",
+    background: "whitesmoke",
+    description: `Polkadot is the first fully-sharded blockchain.
+    Polkadot enables scalability by allowing specialized blockchains to communicate with each other in a secure, 
+    trust-free environment.Polkadot is built to connect and secure unique blockchains, whether they be public,
+    permissionless networks, private consortium chains, or other Web3 technologies. 
+    It enables an internet where independent blockchains can exchange information under common security guarantees.
+    Polkadot is a living network with the core pillars of governance and upgradability. 
+    The network has an advanced suite of governance tools and, using the WebAssembly standard as a "meta-protocol", 
+    can autonomously deploy network upgrades. Polkadot adapts to your growing needs without the risks of network forks.`,
+    link: "https://wiki.polkadot.network/",
+    font: "black",
+  },
 ];
